@@ -1,12 +1,19 @@
-# Portifolio
+# Portfólio
 
-Project to show the portifolio.
+Portfólio do desenvolvedor.
 
-## Tasks
+## Tarefas
 
-The control of tasks in this project will be realized on Github.
+O controle das tarefas neste projeto será realizado no Github.
 
-### Extensions
+## Ícones
+
+- :package: Nova funcionalidade;
+- :up: Atualização;
+- :beatle: Correção de bug;
+- :checkered_flag: Release.
+
+### Extensões
 
 - [x] Auto Close Tag
 - [x] Gitlens
