@@ -10,7 +10,7 @@ O controle das tarefas neste projeto será realizado no Github.
 
 - :package: Nova funcionalidade;
 - :up: Atualização;
-- :beatle: Correção de bug;
+- :beetle: Correção de bug;
 - :checkered_flag: Release.
 
 ### Extensões
