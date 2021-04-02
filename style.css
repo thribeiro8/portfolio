@@ -17,6 +17,10 @@
   --font-action: 'Mulish', serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .hamburguer {
   cursor: pointer;
   width: 2rem;
@@ -178,6 +182,7 @@ header {
   top: 0;
   right: -20rem;
   transition: all 1s;
+  z-index: 150;
 }
 
 .show-menu .sidebar {
@@ -306,7 +311,8 @@ header {
 .conhecimentos-img-wrapper {
   grid-column: 7 / 11;
   grid-row: 2 / 6;
-  width: 100%;
+  width: 80%;
+  height: 80%;
 }
 
 .conhecimentos-img-wrapper img {
@@ -317,6 +323,7 @@ header {
 .projetos {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 2rem;
 }
 
 .card {
@@ -476,7 +483,7 @@ header {
   position: absolute;
   left: 0;
   top: 2rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: var(--font-secundary);
   text-transform: uppercase;
   transition: all 0.3s;
@@ -484,7 +491,7 @@ header {
 
 .field:focus ~ label {
   top: 0;
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 
 .field:focus {
@@ -494,9 +501,13 @@ header {
 .btn-submit {
   font-size: 1.2rem;
   text-transform: uppercase;
-  width: 100%;
-  height: 2rem;
+  width: 80%;
+  height: 2.5rem;
   margin-top: 1rem;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
 }
 
 .sessao-orcamento {
@@ -545,7 +556,6 @@ header {
 .sessao-orcamento label {
   font-family: var(--font-secundary);
   font-size: 1.5rem;
-  font-weight: bold;
 }
 
 .sessao-orcamento input[type='number'] {
@@ -562,4 +572,60 @@ header {
   text-transform: uppercase;
   padding: 1rem;
   grid-column: 2;
+}
+
+footer {
+  width: 100%;
+  height: 7rem;
+  background-color: #17181b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content p {
+  font-family: var(--font-secundary);
+  color: #a7a7a7;
+  font-size: 1.2rem;
+}
+
+.social-list a {
+  margin: 0 2rem;
+  color: #a7a7a7;
+  font-size: 1.3rem;
+}
+
+.social-list a:hover {
+  color: #fff;
+}
+
+.social-list ul {
+  display: flex;
+}
+
+#link-topo {
+  position: fixed;
+  right: 3rem;
+  bottom: 3rem;
+  width: 3rem;
+  height: 3rem;
+  background: #6a3093;
+  background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+  background: linear-gradient(to left, #a044ff, #6a3093);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 0.3rem;
+  box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, #000000);
+}
+
+#link-topo:hover {
+  color: #000;
 }
