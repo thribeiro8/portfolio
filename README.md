@@ -23,10 +23,10 @@ O controle das tarefas neste projeto será realizado no Github.
 
 ## Regras do negócio
 
-- [] Valor por página: R$ 100;
-- [] Script: 10% do custo das páginas;
-- [] Layout: R$ 500,00;
-- [] Taxa de Urgência: 10% do custo total por semana de urgência.
+- [ ] Valor por página: R$ 100;
+- [ ] Script: 10% do custo das páginas;
+- [ ] Layout: R$ 500,00;
+- [ ] Taxa de Urgência: 10% do custo total por semana de urgência.
 
 ## Colaborações
 
