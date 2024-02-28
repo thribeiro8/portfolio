@@ -1,285 +1,294 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-  <!-- prettier-ignore -->
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <title>Portfólio</title>
-  </head>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Site de portfolio de Thomas Ribeiro.">
+    <link rel="icon" type="image/icon" href="assets/imgs/favicon.ico">
+    <title>Thomas Ribeiro | Portfolio</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Steller main styles -->
+	<link rel="stylesheet" href="assets/css/steller.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
-  <body>
-    <div class="container">
-      <div class="hamburguer">
-        <div class="line" id="line1"></div>
-        <div class="line" id="line2"></div>
-        <div class="line" id="line3"></div>
-        <span>Fechar</span>
-      </div>
+    <!-- Page navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/imgs/favicon2.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-      <!-- cabeçalho -->
-      <header id="home">
-        <div class="img-wrapper">
-          <img src="img/bg.jpg" alt="Plano de Fundo" />
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Serviços</a>
+                    </li>                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="- btn btn-primary rounded ml-4" href="components.html">Fale comigo!</a>
+                    </li>
+                </ul>
+            </div>
+        </div>          
+    </nav>
+    <!-- End of page navibation -->
+
+    <!-- Page Header -->
+    <header class="header" id="home">
+        <div class="container">
+            <div class="infos">
+                <h6 class="subtitle">Olá, eu sou</h6>
+                <h6 class="title">Thomas Ribeiro</h6>
+                <p>Programador</p>
+
+                <div class="buttons pt-3">
+                    <button class="btn btn-primary rounded">Me contrate!</button>
+                    <a href="https://drive.google.com/file/d/1zET9JttM1zSwGfJKaBaPuIyNM2hb1YHe/view?usp=sharing" target="_blank" class="btn btn-dark rounded">DOWNLOAD CV</a>
+                </div>      
+
+                <div class="socials mt-4">
+                    <a class="social-item" href="https://www.facebook.com/thomasdribeiro"><i class="ti-facebook"></i></a>
+                    <a class="social-item" href="https://www.instagram.com/thribeiro8/"><i class="ti-instagram"></i></a>
+                    <a class="social-item" href="https://github.com/thribeiro8"><i class="ti-github"></i></a>
+                    <a class="social-item" href="https://twitter.com/thribeiro8"><i class="ti-twitter"></i></a>
+                </div>
+            </div>              
+            <div class="img-holder">
+                <img src="assets/imgs/red-profile2.png" alt="">
+            </div>      
+        </div>  
+
+        <!-- Header-widget -->
+        <div class="widget">
+            <div class="widget-item">
+                <h2>Listo project</h2>
+                <p>Participante da turma internacional do projeto</p>
+            </div>
+            <div class="widget-item">
+                <h2>3 anos</h2>
+                <p>Monitor/professor de programação para crianças e idosos</p>
+            </div>
+            <div class="widget-item">
+                <h2>SGE-ERP</h2>
+                <p>Prêmio de projeto revelação</p>
+            </div>
         </div>
-        <div class="banner">
-          <h1>Frontend Designer and Web Developer</h1>
-          <p>Thomas D. Ribeiro</p>
-          <button class="btn">Saiba mais</button>
+    </header>
+    <!-- End of Page Header -->
+    
+    <!-- About section -->
+    <section id="about" class="section mt-3">
+        <div class="container mt-5">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3">
+                    <img src="assets/imgs/prof.png" alt="" class="img-thumbnail mb-4">
+                </div>
+                <div class="pl-md-4 col-md-9">
+                    <h6 class="title">Thomas Ribeiro</h6>
+                    <p class="subtitle">Programador</p>
+                    <p>Habituado em funções de codificação, planejamento, análise, manutenção, teste de software, integração de sistemas e gestão de projetos de desenvolvimento.</p>
+                    <a href="https://drive.google.com/file/d/1zET9JttM1zSwGfJKaBaPuIyNM2hb1YHe/view" target="_blank" class="btn btn-primary rounded mt-3">DOWNLOAD CV</a>
+                </div>
+            </div>
         </div>
-      </header>
+    </section>
 
-      <!-- menu -->
-      <!-- prettier-ignore -->
-      <aside class="sidebar">
-        <nav>
-          <ul class="menu">
-            <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-            <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
-            <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
-            <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
-            <li class="menu-item"><a href="#orcamento" class="menu-link">Orçamento</a></li>
-          </ul>
-        </nav>
+    <!-- Service section -->
+    <section id="service" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Serviços</h6>
+            <h6 class="section-title mb-4">O que faço?</h6>
+            <p class="mb-5 pb-4">Serviços oferecidos.</p>
 
-        <!-- redes sociais -->
-        <div class="social-media">
-          <a href="#"><i class="fab fa-github-alt"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <div class="row">
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-crown"></i>
+                            <h5>Gestão de conteúdo</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-desktop"></i>
+                            <h5>Desenvolvimento de sites</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-mobile"></i>
+                            <h5>Criação de aplicações</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-bar-chart"></i>
+                            <h5>Aumento de produtividade do seu negócio</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </aside>
+    </section>
+    <!-- End of Sectoin -->
 
-      <!-- conhecimentos -->
-      <section class="sessao-conhecimentos" id="conhecimentos">
-        <div class="sessao-header">
-          <h1>Conhecimentos</h1>
-        </div>
-        <div class="conhecimentos">
-          <div class="conhecimento">
-            <div class="conhecimento-header">
-              <i class="fab fa-html5"></i>
-              <h3>HTML</h3>
-            </div>
-            <div class="conhecimento-text">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-                cupiditate ex, autem quae doloremque, nesciunt a veritatis modi,
-                illo asperiores velit. Doloribus ut minus libero at, laudantium
-                sit provident sed.
-              </p>
-            </div>
-          </div>
-          <div class="conhecimento">
-            <div class="conhecimento-header">
-              <i class="fab fa-css3-alt"></i>
-              <h3>CSS</h3>
-            </div>
-            <div class="conhecimento-text">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                consequatur laborum dignissimos consequuntur temporibus
-                laudantium nisi, provident porro asperiores iste architecto ab
-                deserunt neque laboriosam vitae repellat expedita at quaerat.
-              </p>
-            </div>
-          </div>
-          <div class="conhecimento">
-            <div class="conhecimento-header">
-              <i class="fas fa-pencil-alt"></i>
-              <h3>Design</h3>
-            </div>
-            <div class="conhecimento-text">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id
-                fugiat consequuntur, suscipit soluta harum voluptatum similique
-                enim debitis unde, sed, nostrum expedita labore hic quasi? Iusto
-                repellendus veniam minus cupiditate.
-              </p>
-            </div>
-          </div>
-          <div class="conhecimento">
-            <div class="conhecimento-header">
-              <i class="fab fa-js"></i>
-              <h3>JavaScript</h3>
-            </div>
-            <div class="conhecimento-text">
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
-                voluptate voluptas deleniti rem eveniet unde aliquam cumque nam
-                excepturi, explicabo temporibus repudiandae in aliquid ea at ad?
-                Illum, numquam fugit.
-              </p>
-            </div>
-          </div>
-          <div class="conhecimento">
-            <div class="conhecimento-header">
-              <i class="fab fa-bootstrap"></i>
-              <h3>Bootstrap</h3>
-            </div>
-            <div class="conhecimento-text">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                consequatur accusamus iure, sunt incidunt vitae, quasi ullam
-                omnis aperiam corrupti deleniti, nisi ducimus accusantium quam
-                sapiente possimus blanditiis consequuntur veniam.
-              </p>
-            </div>
-          </div>
-          <div class="conhecimento">
-            <div class="conhecimento-header">
-              <i class="fab fa-github"></i>
-              <h3>Git e Github</h3>
-            </div>
-            <div class="conhecimento-text">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-                nulla expedita vero harum, laborum fugiat optio iusto!
-                Cupiditate quod placeat nisi harum maiores facere, aperiam, id
-                ad tenetur omnis dolores!
-              </p>
-            </div>
-          </div>
-          <div class="conhecimentos-img-wrapper">
-            <img src="img/conhecimentos.png" alt="Imagem conhecimento" />
-          </div>
-        </div>
-      </section>
+    <!-- Skills section -->
+    <section class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">Habilidades</h6>
+            <h6 class="section-title mb-4">Apresentação</h6>
+            <p class="mb-5 pb-4">Sou capacitado em tecnologias fortes de mercado mas também com soft skills que fazem a total diferença.</p>
 
-      <!-- projetos -->
-      <section class="sessao-projetos" id="projetos">
-        <div class="sessao-header">
-          <h1>Projetos</h1>
+            <div class="row text-left">
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Java</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 89%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>89%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">SQL</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 83%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>83%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">HTML, CSS, Javascript, React</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Gestão de conteúdo</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                    </div>
+                </div>
+            </div>  
         </div>
-        <div class="projetos">
-          <div class="card">
-            <div class="card-img-wrapper">
-              <img src="img/projeto1.jpg" alt="imagem do projeto ToDo" />
+    </section>
+    <!-- End of Skills sections -->
+
+    <!-- Hire me section -->
+    <section class="bg-gray p-0 section">
+        <div class="container">
+            <div class="card bg-primary">
+                <div class="card-body text-light">
+                    <div class="row align-items-center">
+                        <div class="col-sm-9 text-center text-sm-left">
+                            <h5 class="mt-3">Para me contratar</h5>
+                            <p class="mb-3">Caso queira me contratar para algum projeto.</p>
+                        </div>
+                        <div class="col-sm-3 text-center text-sm-right">
+                            <button class="btn btn-light rounded">Contrate-me!</button>
+                        </div>
+                    </div>
+                </div> 
             </div>
-            <div class="card-info">
-              <h2>ToDo List</h2>
-              <h3>Javascript</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Cupiditate ducimus vero maxime amet magnam doloribus eos
-                consequatur expedita architecto hic?
-              </p>
-              <button class="btn">Saiba mais</button>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-img-wrapper">
-              <img src="img/projeto2.jpg" alt="imagem do projeto Maratona" />
-            </div>
-            <div class="card-info">
-              <h2>Maratona</h2>
-              <h3>HTML, CSS</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dolores, vero aliquam? Pariatur libero voluptas ipsam ullam
-                consectetur ab facilis cumque.
-              </p>
-              <button class="btn">Saiba mais</button>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-img-wrapper">
-              <img src="img/projeto3.jpg" alt="imagem do projeto Casa Bela" />
-            </div>
-            <div class="card-info">
-              <h2>Casa Bela</h2>
-              <h3>HTML</h3>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
-                pariatur soluta doloremque tempore nisi placeat, eveniet
-                voluptate recusandae. Eius, sapiente?
-              </p>
-              <button class="btn">Saiba mais</button>
-            </div>
-          </div>
         </div>
-      </section>
+    </section>      
+    <!-- End od Hire me section. -->
 
-      <!-- contato -->
-      <section class="sessao-contato" id="contato">
-        <div class="contato-wrapper">
-          <div class="contato-left"></div>
+    <!-- Contact Section -->
+    <section id="contact" class="position-relative section">
+        <div class="container text-center">
+            <h6 class="subtitle">Contato</h6>
+            <h6 class="section-title mb-4">Entre em contato comigo</h6>
+            <p class="mb-5 pb-4">Para falar comigo pode mandar mensagem nos itens abaixo.</p>
 
-          <div class="contato-right">
-            <h1>Contato</h1>
-            <!-- prettier-ignore -->
-            <form>
-              <div class="input-group">
-                <input type="text" class="field" id="nome"/>
-                <label for="nome" class="field-label">Nome</label>
-              </div>
-              <div class="input-group">
-                <input type="text" class="field" id="email"/>
-                <label for="email" class="field-label">E-mail</label>
-              </div>
-              <div class="input-group">
-                <textarea class="field" id="mensagem"></textarea>
-                <label for="mensagem" class="field-label">Mensagem</label>
-              </div>
-              <button type="submit" class="btn btn-submit">Enviar</button>
-            </form>
-          </div>
-        </div>
-      </section>
-
-      <!-- orçamento -->
-      <section class="sessao-orcamento" id="orcamento">
-        <div class="orcamento-wrapper">
-          <h1>Faça um orçamento</h1>
-          <form>
-            <label for="qtd">Quantidade de páginas</label>
-            <input type="number" min="1" name="qtd" id="qtd" />
-            <label for="js">Preciso de um script JS</label>
-            <input type="checkbox" name="js" id="js" />
-            <label>Layout</label>
-            <div class="group-layout">
-              <div>
-                <input type="radio" name="layout" id="layout-sim" />
-                <label for="layout-sim">Preciso de um layout</label>
-              </div>
-              <div>
-                <input type="radio" name="layout" id="layout-nao" />
-                <label for="layout-nao">Já tenho um layout</label>
-              </div>
+            <div class="contact text-left">
+                <div class="form">
+                    <h6 class="subtitle">Disponível 24h de segunda - sábado</h6>
+                    <h6 class="section-title mb-4">Me chame</h6>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="contact-message" id="" cols="30" rows="5" class="form-control" placeholder="Mensagem"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block rounded w-lg">Enviar</button>
+                    </form>
+                </div>
+                <div class="contact-infos">
+                    <div class="item">
+                        <i class="ti-location-pin"></i>
+                        <div class="">
+                            <h5>Localização</h5>
+                            <p>Av. Republica do Libano 251, Recife</p>
+                        </div>                          
+                    </div>
+                    <div class="item">
+                        <i class="ti-mobile"></i>
+                        <div>
+                            <h5>Telefone</h5>
+                            <p>(81)99999-9999</p>
+                        </div>                          
+                    </div>
+                    <div class="item">
+                        <i class="ti-email"></i>
+                        <div class="mb-0">
+                            <h5>Email</h5>
+                            <p>info@thomas.com</p>
+                        </div>
+                    </div>
+                </div>                  
             </div>
-            <label for="prazo">Prazo</label>
-            <input type="range" name="prazo" id="prazo" min="1" max="10" />
-            <label id="preco">R$ 0,00</label>
-            <button class="btn btn-orcamento" type="submit">Enviar</button>
-          </form>
-        </div>
-      </section>
+        </div>  
+        <div id="map">
+            <iframe src="https://snazzymaps.com/embed/61257"></iframe>
+        </div>      
+    </section>
+    <!-- End of Contact Section -->
 
-      <!-- rodapé -->
-      <footer>
-        <div class="footer-content">
-          <p>Copyright &copy; 2021, TH - Todos os direitos reservados.</p>
+    <!-- Page Footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="http://www.google.com" target="_blank">Thomas Ribeiro</a></p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="socials">
+                        <a class="social-item" href="https://www.facebook.com/thomasdribeiro"><i class="ti-facebook"></i></a>
+                        <a class="social-item" href="https://www.instagram.com/thribeiro8/"><i class="ti-instagram"></i></a>
+                        <a class="social-item" href="https://github.com/thribeiro8"><i class="ti-github"></i></a>
+                        <a class="social-item" href="https://twitter.com/thribeiro8"><i class="ti-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- prettier-ignore -->
-        <div class="social-list">
-          <ul>
-            <li><a href="#"><i class="fab fa-github-alt"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter></i" ></a></li>
-          </ul> 
-        </div>
-      </footer>
+    </footer> 
+    <!-- End of page footer -->
+	
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <!-- bootstrap 3 affix -->
+	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
-      <a href="#home" id="link-topo">
-        <i class="fas fa-arrow-up"></i>
-      </a>
-    </div>
-  </body>
+    <!-- steller js -->
+    <script src="assets/js/steller.js"></script>
 
-  <script src="script.js"></script>
+</body>
 </html>
